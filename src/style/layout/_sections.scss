@@ -3,7 +3,7 @@ section {
   padding: 5rem 0rem;
 
   @include respond(phone) {
-    border: none;
+    border: fade-out($color: #000000, $amount: 0);
     padding-left: 1rem;
     padding-right: 1rem;
   }
